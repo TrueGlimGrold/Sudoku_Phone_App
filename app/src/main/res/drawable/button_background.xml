@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button in the pressed state (clicked) -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#0000FF" /> <!-- Change this color to the desired color when pressed (e.g., blue) -->
+            <stroke android:width="1dp" android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- Default button state (hover) -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Change this color to the desired default color (e.g., white) -->
+            <stroke android:width="1dp" android:color="#000000" />
+        </shape>
+    </item>
+</selector>
